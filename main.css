@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+body {
+    background-color: aquamarine; 
+}
+
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; 
+  height: 300px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pics {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%; 
+  height: 200px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.link {
+    padding: 20px 100px 20px 100px;
+}
